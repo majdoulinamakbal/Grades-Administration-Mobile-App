@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Choix"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:background="@drawable/student1">
+
+
+    <Button
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/input"
+        android:id="@+id/button"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:drawableRight="@drawable/arrowtrespetit"></Button>
+
+    <TextView
+
+
+        android:id="@+id/bienvenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+
+        android:fontFamily="@font/alfa_slab_one"
+        android:textColor="#000000"
+        android:textSize="15dp"
+       ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right">
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="100sp"
+        android:onClick="listecours"
+        android:text="la liste des cours"
+        android:background="@drawable/buttons4"
+        android:fontFamily="monospace"
+        android:drawableRight="@drawable/group2"></Button>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="100sp"
+            android:background="@drawable/buttons4"
+            android:fontFamily="monospace"
+            android:onClick="listeudiants"
+            android:text="la liste étudiants"
+            android:drawableRight="@drawable/group2"
+   ></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50sp"
+        android:onClick="gestioncours"
+        android:text="Gestion cours"
+        android:fontFamily="monospace"
+        android:background="@drawable/buttons4"
+        android:drawableRight="@drawable/group2"
+        ></Button>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50sp"
+        android:onClick="gestionetudiant"
+        android:text="Gestion étudiants"
+        android:fontFamily="monospace"
+        android:drawableRight="@drawable/group2"
+        android:background="@drawable/buttons4"></Button>
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="50sp"
+            android:onClick="classement"
+            android:text="Classement"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:background="@drawable/buttons4"
+            android:drawableRight="@drawable/group2"
+            ></Button>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="50sp"
+            android:onClick="graphe"
+            android:textSize="10dp"
+            android:text="Statistiques"
+            android:fontFamily="monospace"
+            android:drawableRight="@drawable/group2"
+            android:background="@drawable/buttons4"></Button>
+    </LinearLayout>
+
+
+    </LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Etudiants"
+    android:orientation="vertical"
+    android:gravity="left"
+    android:background="@drawable/etudiant">
+    <Button
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/orange"
+        android:id="@+id/button"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:drawableRight="@drawable/arrowtrespetit"></Button>
+    <TextView
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textColor="#FF4181"
+        android:layout_height="50dp"
+        android:layout_width="150dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="Etudiants"
+        android:layout_marginTop="20dp"></TextView>
+    <ListView
+        android:layout_marginTop="150sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/listview"
+        android:id="@+id/list"
+
+
+        ></ListView>
+
+</LinearLayout>

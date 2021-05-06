@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailEtudiant"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:background="@drawable/detailsetudiant">
+    <Button
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/orange"
+        android:id="@+id/button"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:drawableRight="@drawable/arrowtrespetit"></Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:id="@+id/tv1"
+        android:layout_marginTop="10sp"></TextView>
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|left">
+        <TextView
+            android:layout_width="100sp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_height="50sp"
+
+            android:background="@drawable/listview"
+            android:textSize="15sp"
+            android:textColor="#4F0D9B"
+            android:gravity="center_vertical|center_horizontal"
+
+            android:text="Matricule"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:textSize="15sp"
+            android:id="@+id/tvmat"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="100sp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_height="50sp"
+
+            android:background="@drawable/listview"
+            android:textSize="15sp"
+            android:textColor="#4F0D9B"
+            android:gravity="center_vertical|center_horizontal"
+
+            android:text="Nom"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:textSize="15sp"
+            android:id="@+id/tvnom"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="100sp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_height="50sp"
+
+            android:background="@drawable/listview"
+            android:textSize="15sp"
+            android:textColor="#4F0D9B"
+            android:gravity="center_vertical|center_horizontal"
+
+            android:text="Prenom"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:textSize="15sp"
+            android:id="@+id/tvprenom"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="100sp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_height="50sp"
+
+            android:background="@drawable/listview"
+            android:textSize="15sp"
+            android:textColor="#4F0D9B"
+            android:gravity="center_vertical|center_horizontal"
+
+            android:text="Ville"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:textSize="15sp"
+            android:id="@+id/tvville"></TextView>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_marginTop="20sp"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:gravity="center">
+<TextView
+    android:layout_width="100sp"
+    android:layout_marginLeft="20dp"
+
+    android:layout_height="50sp"
+
+    android:background="@drawable/listview"
+    android:textSize="15sp"
+    android:textColor="#4F0D9B"
+    android:gravity="center_vertical|center_horizontal"
+
+    android:text="Date de naissance"
+
+    ></TextView>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="50sp"
+    android:textSize="15sp"
+    android:id="@+id/tvdate"></TextView>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="100sp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_height="50sp"
+
+            android:background="@drawable/listview"
+            android:textSize="15sp"
+            android:textColor="#4F0D9B"
+            android:gravity="center_vertical|center_horizontal"
+
+            android:text="Moyenne"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:textSize="15sp"
+            android:id="@+id/tvmoy"></TextView>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="252dp"
+        android:layout_height="78dp"
+
+        android:layout_marginTop="30sp"
+
+        android:background="@drawable/bouton"
+        android:text="Cours Suivis"
+
+        android:onClick="Courssuivis"></Button>
+
+
+</LinearLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detailcours"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:background="@drawable/listview1">
+    <Button
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/orange"
+        android:id="@+id/button"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:drawableRight="@drawable/arrowtrespetit"></Button>
+
+    <LinearLayout
+        android:layout_marginTop="200sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+    <TextView
+        android:text="Titre"
+        android:layout_width="100sp"
+        android:layout_marginLeft="20dp"
+
+        android:layout_height="50sp"
+
+        android:background="@drawable/listview"
+        android:textSize="15sp"
+        android:textColor="#4F0D9B"
+        android:gravity="center_vertical|center_horizontal"
+
+
+
+        ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:textSize="15sp"
+            android:fontFamily="casual"
+            android:id="@+id/tvid"
+
+            ></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|left"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:text="Semestre"
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/listview"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#4F0D9B"
+            android:textSize="15sp"
+
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:textSize="15sp"
+            android:fontFamily="casual"
+            android:id="@+id/tvsem"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/listview"
+            android:gravity="center_vertical|center_horizontal"
+
+
+            android:textColor="#4F0D9B"
+            android:textSize="15sp"
+
+            android:text="Coefficient"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:textSize="15sp"
+            android:fontFamily="casual"
+            android:id="@+id/tvcoeff"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/listview"
+
+
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#4F0D9B"
+            android:textSize="15sp"
+
+            android:text="Filière"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:textSize="15sp"
+            android:fontFamily="casual"
+            android:id="@+id/tvfil"></TextView>
+
+    </LinearLayout>
+    <Button
+        android:onClick="Inscrire"
+        android:text="Inscrire"
+        android:layout_width="252dp"
+        android:layout_height="78dp"
+
+        android:layout_marginTop="30sp"
+
+        android:background="@drawable/bouton"></Button>
+
+
+
+</LinearLayout>
